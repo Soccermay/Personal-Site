@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Cedarville+Cursive&family=Diplomata+SC&family=Rubik+Broken+Fax&family=Rubik+Wet+Paint&family=Sedgwick+Ave+Display&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #D7E4C0;
+}
+
+h1 {
+    font-size: 47px;
+    font-family: 'Caveat', cursive;
+}
+
+.main {
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #C6DCBA;
+}
+
+.main > .circle {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    align-self: flex-start;
+    background-color: #BBC3A4;
+}
+
+.main > .triangle {
+    height: 60px;
+    width: 60px;
+    background-color: #BBC3A4;
+    align-self: flex-end;
+    border-top-left-radius: 990%;
+    border-top-right-radius: 10%;
+    transform: rotate(210deg);
+}
+
+p {
+    font-size: 20px;
+    letter-spacing: 2.1;
+    font-family: serif;
+}
+
+.Content {
+    height: 140vh;
+    background-color: #D7E4C0;
+}
+
+.container > h2 {
+    text-align: center;
+    color: #B3A398;
+    font-weight: 900;
+}
+
+.container > .Picture {
+    border-radius: 50%;
+    display: flex;
+    margin: auto;
+    margin-top: 27px;
+}
+
+.container > .text {
+    font-family: sans-serif;
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+/*Inline divider */
+
+.line {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.divider {
+    height: 20px;
+    width: 20px;
+    background-color: lightslategray;
+    border-radius: 50%;
+    display: flex;
+    margin: auto;
+    animation-name: Div;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+/*Animation for divider */
+
+@keyframes Div {
+    0% {
+        background-color: white;
+    }
+
+    25% {
+        background-color: grey;
+    }
+
+    75% {
+        background-color: black;
+    }
+    
+}
+
+h3 {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 28px;
+    font-family: sans-serif;
+    color: #9B4444;
+}
+
+/* Three Sections */
+
+.Content > .all-sections {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 90vh;
+    gap: 2rem;
+    margin-top: -30px;
+}
+
+.Content > .all-sections > .first-section {
+    background-color: #B3A398;
+    text-align: center;
+    border-radius: 2rem;
+    max-width: 400px;
+}
+
+.Content > .all-sections > .second-section {
+    background-color: #B3A398;
+    text-align: center;
+    border-radius: 2rem;
+    max-width: 400px;
+}
+
+.Content > .all-sections > .third-section {
+    background-color: #B3A398;
+    text-align: center;
+    border-radius: 2rem;
+    max-width: 400px;
+}
+
+h4 {
+    font-size: 24px;
+    text-align: center;
+    color: #D7E4C0;
+    font-weight: 900;
+    text-decoration: underline;
+}
+
+/* Contact Section */
+
+.contact {
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #BBC3A4;
+}
+
+.contact > h5 {
+    font-size: 25px;
+    margin-bottom: -5px;
+    color: #9B4444;
+}
+
+.contact > h6 {
+    font-size: 20px;
+    margin-bottom: 25px;
+    color: black;
+    font-family: sans-serif;
+}
+
+.contact > .btn {
+    border: none;
+    background-image: linear-gradient(rgb(51, 51, 207), rgb(103, 99, 218));
+    padding: 10px;
+    border-radius: 1.5rem;
+    font-size: 17px;
+    text-transform: uppercase;
+    color: #fff;
+    cursor: pointer;
+}
+
+.contact > .btn:hover {
+    color: #000000;
+}
+
+/* Footer Section */
+
+.footer {
+    background-color: #B3A398;
+    height: 20vh;
+}
+
+.footer > .links {
+    font-size: 17px;
+    display: flex;
+    height: 10vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer > .links > a {
+    text-transform: none;
+    text-decoration: none;
+    color: black;
+    margin: 10px 15px;
+}
+
+.footer > .links > a:hover {
+    color: white;
+}
+
+.footer > .copyright {
+    text-align: center;
+    font-size: 16px;
+}
+
+/* Responsive Section */
+
+@media (min-width:600px) {
+    
+}
