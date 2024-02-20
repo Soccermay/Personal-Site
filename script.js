@@ -1,10 +1,14 @@
 
 
 function Message() {
-    var message = prompt("Enter your message here:");
-    var messagecount = message.length;
+    var name1 = prompt("What is your name?");
+    var firstLetter = name1.slice(0,1);
+    var nameUppercase = firstLetter.toUpperCase();
+    var restofname = name1.slice(1,name1.length);
+    var totalresult = nameUppercase + restofname;
 
-alert("You have typed out " + messagecount + " characters in the empty box.");
+    alert("Hello there " + totalresult);
+
 }
 
 Message();
@@ -20,10 +24,7 @@ alert("You have typed out " + (" '" + messageUnder20 + "' " + message.length) + 
 // var greeting = "Hello there people";
 // greeting.slice(5,10)
 
-var name1 = prompt("What is your name?");
-var firstLetter = name1.slice(0,1);
-var nameUppercase = firstLetter.toUpperCase();
-var restofname = name1.slice(1,name1.length);
-var totalresult = nameUppercase + restofname;
+var message = prompt("Enter your message here:");
+var messagecount = message.length;
 
-alert("Hello there " + totalresult);
+alert("You have typed out " + messagecount + " characters in the empty box.");
