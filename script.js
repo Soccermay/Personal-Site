@@ -1,6 +1,6 @@
 
 
-function Message() {
+function Messages() {
     var name1 = prompt("What is your name?");
     var firstLetter = name1.slice(0,1);
     var nameUppercase = firstLetter.toUpperCase();
@@ -11,7 +11,7 @@ function Message() {
 
 }
 
-Message();
+Messages();
 
 function Prompt() {
     var message = prompt("Enter your message here:");
