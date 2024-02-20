@@ -225,6 +225,23 @@ h4 {
     font-size: 16px;
 }
 
+/* New button styling */
+.btn-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn2 {
+    border: none;
+    background-image: linear-gradient(rgb(51, 51, 207), rgb(103, 99, 218));
+    padding: 10px;
+    border-radius: 1.5rem;
+    font-size: 17px;
+    text-transform: uppercase;
+    color: #fff;
+    cursor: pointer;
+    
+}
 
 /* Responsive Section */
 
