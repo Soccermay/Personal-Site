@@ -275,5 +275,6 @@ h4 {
     .btn-flex {
         display: flex;
         flex-direction: column;
+        height: 20%;
     }
 }
