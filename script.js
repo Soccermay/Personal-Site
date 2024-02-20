@@ -6,9 +6,7 @@ function Messages() {
     var nameUppercase = firstLetter.toUpperCase();
     var restofname = name1.slice(1,name1.length);
     var totalresult = nameUppercase + restofname;
-
     alert("Hello there " + totalresult + ". " +  "I will be in touch soon.");
-
 }
 
 Messages();
