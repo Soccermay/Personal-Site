@@ -14,7 +14,6 @@ function Message() {
 Message();
 
 
-
 var message = prompt("Enter your message here:");
 var messageUnder20 = message.slice(0,20);
 var messageGenerator = message.toUpperCase;
