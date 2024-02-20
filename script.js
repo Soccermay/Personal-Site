@@ -13,17 +13,20 @@ function Message() {
 
 Message();
 
+function Prompt() {
+    var message = prompt("Enter your message here:");
+    var messageUnder20 = message.slice(0,20);
+    var messageGenerator = message.toUpperCase;
+    alert("You have typed out " + (" '" + messageUnder20 + "' " + message.length) + " characters in the empty box.");
+}
 
-var message = prompt("Enter your message here:");
-var messageUnder20 = message.slice(0,20);
-var messageGenerator = message.toUpperCase;
-alert("You have typed out " + (" '" + messageUnder20 + "' " + message.length) + " characters in the empty box.");
+Prompt()
 
 // var name = "Brandon";
 // var greeting = "Hello there people";
 // greeting.slice(5,10)
 
-var message = prompt("Enter your message here:");
-var messagecount = message.length;
+// var message = prompt("Enter your message here:");
+// var messagecount = message.length;
 
-alert("You have typed out " + messagecount + " characters in the empty box.");
+// alert("You have typed out " + messagecount + " characters in the empty box.");
