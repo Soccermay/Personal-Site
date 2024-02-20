@@ -178,7 +178,7 @@ h4 {
     font-family: sans-serif;
 }
 
-.contact > .btn {
+.contact > .btn-flex > .btn {
     border: none;
     background-image: linear-gradient(rgb(51, 51, 207), rgb(103, 99, 218));
     padding: 10px;
